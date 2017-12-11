@@ -18,6 +18,9 @@ Plugin 'VundleVim/Vundle.vim'
 	
        "C++ syntax highlighting
 	Plugin 'octol/vim-cpp-enhanced-highlight'
+       
+       "File renamer plugin
+	Plugin 'qpkorr/vim-renamer'
 
 " }
 " All of your Plugins must be added before the following line
@@ -34,6 +37,11 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 "------------------------------------------------
 
+" ignore case when searching with /
+set ignorecase
+
+" if you search with / and type a uppercase case sensitive matching will be turned on
+set smartcase
 
 
 " Turn syntax highlighting on
