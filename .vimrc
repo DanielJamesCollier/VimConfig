@@ -19,7 +19,8 @@ Plugin 'VundleVim/Vundle.vim'
        "C++ syntax highlighting
 	Plugin 'octol/vim-cpp-enhanced-highlight'
        
-       "File renamer plugin
+
+"File renamer plugin
 	Plugin 'qpkorr/vim-renamer'
 
 " }
@@ -43,6 +44,8 @@ set ignorecase
 " if you search with / and type a uppercase case sensitive matching will be turned on
 set smartcase
 
+" enable incremental search with /
+:set incsearch
 
 " Turn syntax highlighting on
 syntax on
@@ -66,7 +69,6 @@ filetype plugin indent on
 
 " disable swap files
 set noswapfile
-
 
 " add a key map that allows you to navigate splits using ctrl + [hjkl]
 " instead of ctrl + shift + [hjkl]
