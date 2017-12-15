@@ -19,8 +19,7 @@ Plugin 'VundleVim/Vundle.vim'
        "C++ syntax highlighting
 	Plugin 'octol/vim-cpp-enhanced-highlight'
        
-
-"File renamer plugin
+        "File renamer plugin
 	Plugin 'qpkorr/vim-renamer'
 
 " }
@@ -58,7 +57,6 @@ filetype plugin on
 
 " always split to the right
 set splitright
-
 
 " Tab stuff
 filetype plugin indent on
