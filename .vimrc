@@ -14,7 +14,8 @@ Plugin 'VundleVim/Vundle.vim'
 " {
 
        "Added nerdtree
-	Plugin 'scrooloose/nerdtree'
+
+Plugin 'scrooloose/nerdtree'
 	
        "C++ syntax highlighting
 	Plugin 'octol/vim-cpp-enhanced-highlight'
@@ -23,6 +24,7 @@ Plugin 'VundleVim/Vundle.vim'
 	Plugin 'qpkorr/vim-renamer'
 
 " }
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -67,6 +69,9 @@ filetype plugin indent on
 
 " disable swap files
 set noswapfile
+
+" redraw on focus
+au FocusGained * :redraw!
 
 " add a key map that allows you to navigate splits using ctrl + [hjkl]
 " instead of ctrl + shift + [hjkl]
